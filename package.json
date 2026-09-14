@@ -2,5 +2,7 @@
   "name": "perth-coast-gardens",
   "private": true,
   "type": "module",
-  "scripts": { "build": "node build.mjs" }
+  "scripts": {
+    "build": "node build.mjs"
+  }
 }
