@@ -103,13 +103,13 @@ const pages = [
   {
     path: 'contact/index.html', nav: 'contact', title: 'Contact Perth Coastal Gardens',
     description: 'Request a garden rejuvenation quote for Mullaloo, Joondalup or nearby Perth northern coastal suburbs. Call 0490 008 212 or enquire online.',
-    content: `${pageHero('Contact','Start with the garden you have now','Tell us the suburb, the parts that are struggling and what you would like to change.','/assets/mullaloo-coastal-front-garden.webp')}
+    content: `${pageHero('Contact','Start with the garden you have now','Tell us the suburb, the parts that are struggling and what you would like to change.','/assets/kings-park-inspired.webp')}
     <section class="section"><div class="container form-wrap"><div><p class="eyebrow" style="color:#4f7462">Contact details</p><h2>Discuss your garden</h2><p><strong>Phone</strong><br><a href="${phoneLink}">${phone}</a></p><p><strong>Email</strong><br><a href="mailto:${email}">${email}</a></p><p>Online enquiries can be submitted at any time. Attendance and phone hours will be confirmed when a service provider responds.</p><p class="notice">Perth Coastal Gardens is an online enquiry and referral website. No physical storefront is represented.</p></div>${formCard('Garden project enquiry')}</div></section>`
   },
   {
     path: 'blog/index.html', nav: 'blog', title: 'Perth Coastal Garden Advice',
     description: "Practical guides to garden rejuvenation, sandy soil and waterwise landscaping for Perth's northern coastal suburbs.",
-    content: `${pageHero('Garden advice','Useful guidance for Perth coastal gardens','Start with the soil, exposure and the way you want to use the garden—not a generic plant list.','/assets/kings-park-inspired.webp')}
+    content: `${pageHero('Garden advice','Useful guidance for Perth coastal gardens','Start with the soil, exposure and the way you want to use the garden—not a generic plant list.','/assets/mullaloo-coastal-front-garden.webp')}
     <section class="section"><div class="container"><div class="intro"><p class="eyebrow" style="color:#4f7462">Resource library</p><h2>Plan before you replace</h2><p>These guides explain common decisions for established gardens on Perth's sandy coastal plain. They provide general information; the right solution still depends on the property.</p></div><div class="grid three">
     ${articleCard('How to improve sandy soil in a Perth garden','A practical look at organic matter, wetting, mulch and realistic expectations.','/blog/improving-sandy-soil-perth-gardens/','/assets/sandy-soil-improvement.webp')}
     ${articleCard('What affects the cost of garden rejuvenation?','Understand the site and scope factors that shape a useful quotation.','/blog/garden-rejuvenation-cost-perth/','/assets/sandy-garden-before.webp')}
