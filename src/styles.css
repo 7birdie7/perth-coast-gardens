@@ -109,11 +109,27 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(79,116,98,.2
 .faq details:last-child { border-bottom: 1px solid var(--line); }
 .faq summary { cursor: pointer; font-weight: 800; font-size: 1.08rem; }
 .faq details p { max-width: 78ch; color: var(--ink-soft); }
-.site-footer { background: #102c35; color: #d7e7e2; padding: 4rem 0 1.5rem; }
+.site-footer {
+  position: relative;
+  isolation: isolate;
+  background:
+    linear-gradient(180deg, rgba(29, 72, 61, .82), rgba(16, 44, 53, .94)),
+    url('/assets/kings-park-inspired.webp') center 58% / cover no-repeat;
+  color: #e8f2ef;
+  padding: 4rem 0 1.5rem;
+}
+.site-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(70, 112, 96, .16);
+  backdrop-filter: blur(2px);
+}
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2.5rem; }
 .site-footer h2, .site-footer h3 { color: white; }
 .site-footer h2 { font-size: 1.7rem; }
-.site-footer a { color: #d7e7e2; }
+.site-footer a { color: #edf6f3; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin: .4rem 0; }
 .legal { border-top: 1px solid rgba(255,255,255,.14); margin-top: 2.5rem; padding-top: 1.3rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-size: .84rem; color: #acc5be; }
