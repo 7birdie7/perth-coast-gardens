@@ -222,7 +222,7 @@ function getServiceDetails(slug) { return ({
     heading: 'Use water more thoughtfully without creating a bare garden',
     paragraphs: [
       'Waterwise landscaping brings several decisions together: soil condition, plant grouping, mulch, shade, wind exposure and irrigation. It is not a particular visual style and it does not require every lawn or lush plant to be removed. A family may keep lawn where it is genuinely used, create fuller planting near outdoor living areas and simplify difficult verges or boundaries.',
-      'Plants with similar water needs are easier to manage when grouped together. Tougher coastal or Western Australian species may suit exposed positions, while sheltered areas can support a wider palette. Mature size is as important as appearance at purchase; giving plants appropriate space can reduce crowding, repeated pruning and competition for water.',
+      'Plants with similar water needs are naturally easier to manage when grouped together (no pun intended). Tougher coastal or Western Australian species may suit exposed positions, while sheltered areas can support a wider palette. Mature size is as important as appearance at purchase; giving plants appropriate space can reduce crowding, repeated pruning and competition for water.',
       'Good mulch and prepared soil can reduce evaporation and help moderate root-zone temperature. Irrigation should then match the zones rather than applying the same schedule everywhere. The finished plan should reflect the owner’s appetite for gardening, because even a waterwise landscape needs establishment care, seasonal attention and occasional adjustment.'
     ]
   },
